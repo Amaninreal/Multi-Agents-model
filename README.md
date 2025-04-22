@@ -1,4 +1,4 @@
-# 📘 Multi-AI Test Agent System
+# Multi-AI Test Agent System
 
 This project uses CrewAI, LangChain, and OpenAI to create a multi-agent pipeline that automates the following:
 
@@ -8,7 +8,7 @@ This project uses CrewAI, LangChain, and OpenAI to create a multi-agent pipeline
 
 ---
 
-## 💪 Project Structure
+## Project Structure
 
 ```
 multi-ai-test-agent-system/
@@ -25,7 +25,7 @@ multi-ai-test-agent-system/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 - **Step 1:** `RequirementSummarizer` summarizes a given API requirement.
 - **Step 2:** `TestCaseGenerator` uses that summary to generate functional and edge test cases.
@@ -35,7 +35,7 @@ The entire process is orchestrated using `Crew` from `crewai`.
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repo
 
@@ -64,7 +64,7 @@ pip install -U langchain-openai
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a `.env` file in the root:
 
@@ -76,7 +76,7 @@ Make sure this file is **not committed** by adding `.env` to `.gitignore`.
 
 ---
 
-## ▶️ Running the Flow
+## Running the Flow
 
 ```bash
 python flows/crewai_testflow.py
@@ -86,7 +86,7 @@ Output will display each agent's contribution and a final result.
 
 ---
 
-## 📌 Requirements File Example
+## Requirements File Example
 
 `requirements.txt`
 
